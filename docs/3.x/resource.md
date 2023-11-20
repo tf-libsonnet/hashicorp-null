@@ -6,7 +6,7 @@ permalink: /resource/
 
 `resource` represents the `null_resource` Terraform resource.
 
-The `null_resource` resource implements the standard resource lifecycle but takes no further action.
+The `null_resource` resource implements the standard resource lifecycle but takes no further action. On Terraform 1.4 and later, use the [terraform_data resource type](https://developer.hashicorp.com/terraform/language/resources/terraform-data) instead.
 
 The `triggers` argument allows specifying an arbitrary set of values that, when changed, will cause the resource to be replaced.
 
